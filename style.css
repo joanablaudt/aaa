@@ -1,0 +1,259 @@
+body {
+    font-family: 'Times New Roman';
+    letter-spacing: 1px; /*espaço entre letras*/
+    word-spacing: 1.5px; /*espaço entre palavras*/
+    background-color: rgb(230,230,250); /*muda a cor de fundo*/
+    overflow-x:inherit;
+}
+
+header {
+    border: 3px solid rgb(204, 204, 236); /*muda a borda*/
+    border-collapse: collapse;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+}
+
+#logo {
+    height: 125px;
+    display: flex;
+    display: inline-block;
+    margin: 15px 30px 10px 25px;
+}
+
+header h1{
+    color: rgb(75,0,130);
+    font-size: 40px;
+    font-weight: lighter;
+    text-shadow: -2px 2px 4px rgb(105,105,105);
+}
+
+.pagina-inicial {
+    background-color: rgb(147,112,219);
+    font-size: 25px;
+    font-weight: bolder;
+    letter-spacing: 5px;
+    padding: 15px 40px;
+    margin: 2px 0;
+    text-align: center;
+    height: 60px;
+}
+
+.pagina-inicial li {
+    display: flex;
+    display: inline-block;
+}
+
+.pagina-inicial a {
+    color: white;
+}
+
+.pagina-inicial a:hover {
+    color: lightgray;
+    font-size: 35px;
+    text-decoration:wavy;
+}
+
+#saude-fisica {
+    text-align:right;
+    color: rgb(28,28,28);
+    display: inline-box;
+    width: 75%;
+    box-sizing: border-box;
+    height: 100%;
+}
+
+#saude-fisica img {
+    max-width: 1000px;
+    margin: 25px 300px 10px 10px;
+}
+
+#saude-fisica p {
+    box-shadow: -3px 2px 15px rgb(115, 115, 185);
+    font-size: 20px;
+    margin: 15px 0px;
+    text-indent: 4em;
+    text-align: justify;
+    line-height: 1.8em;
+    padding: 2px 80px;
+    display: inline-block;
+    width: 90%;
+    font-weight: bold;
+}
+
+.img-alter {
+    float: right;
+    width: 20%
+}
+
+.img-alter img {
+    max-width: 650px;
+    margin-left: -280px;
+    padding-top: 20px;
+}
+
+.footer-content {
+    font-size: 18px;
+    color: rgb(105,105,105);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 40px 20px;
+    width: 100%;
+}
+
+.footer-content img {
+    width: 125px;
+    margin-right: 20px;
+}
+
+.sobre {
+    background-image: url('./img/alter-2.png');
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 80px 0px;
+    width: 100%;
+}
+
+#content-sobre {
+    text-align: center;
+    color: rgb(105,105,105);
+    display: inline-block;
+    width: 60%;
+    box-sizing: border-box;
+    height: 100%;
+}
+
+#content-sobre p {
+    background-color: rgb(28, 28, 28);
+    box-shadow: -3px 2px 15px grey;
+    font-size: 22px;
+    margin: 45px 30px;
+    text-indent: 4em;
+    text-align: justify;
+    line-height: 2.4em;
+    padding: 2px 80px;
+    display: inline-block;
+    width: 100%;
+    font-weight: bold;
+}
+
+#content-sobre h3 {
+    font-size: 40px;
+    font-weight: bold;
+    text-decoration: wavy;
+    margin-bottom: 50px;
+}
+
+.novidades {
+    background-color: rgb(230,230,250);
+}
+.img-saude{
+    margin-bottom: auto;
+    float: right;
+    margin-right: 100PX;
+    margin-top: -550px;
+}
+
+.novidades {
+    background-color: rgb(230,230,250);
+    padding: 50px;
+    text-align: center;
+}
+
+.novidades hr {
+    box-shadow: -8px 5px 10px gray;
+    width: 70%;
+    height: 5px;
+    margin: 0px 15% 40px;
+}
+
+#content-novidades {
+    text-align: center;
+    align-content: center;
+    align-self: center;
+}
+
+#content-novidades article {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+#content-novidades h3 {
+    color: rgb(28, 28, 28);
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: wavy;
+    margin: 40px 20px 50px;
+}
+
+#content-novidades p {
+    background-color: rgb(230,230,250);
+    box-shadow:  -3px 2px 15px gray;
+    font-size: 17px;
+    margin: 45px 30px;
+    text-indent: 4em;
+    text-align: justify;
+    line-height: 2.5em;
+    padding: 22px 80px;
+    display: inline-block;
+    width:  45%;
+    font-weight: bold;
+}
+
+#content-novidades img {
+    max-width: 300px;
+    height: 200px;
+    margin: 20px;
+}
+
+#calc-imc {
+    border: 2px rgb(115, 115, 185);
+    background-color: rgb(230,230,250);
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    width: 30%;
+    height: 340px;
+    margin: 120px 40px 100px 100px;
+    box-sizing: border-box;
+    overflow-y: auto;
+}
+
+#calc-imc input {
+    width: 60%;
+    height: 40px;
+    margin: 10px 5px 5px;
+    padding: 3px 10px;
+    text-align: center;
+}
+
+#calc-imc label {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+#calc-imc button {
+    width: 60%;
+    font-size: 17px;
+    text-align: center;
+    font-weight: bold;
+    padding: 7px 0px 5px;
+    color: rgb(147,112,219);
+    margin-top: auto;
+    box-shadow: -4px 4px 5px gray;
+    border-radius: 14px;
+    border: none;
+    position: relative;
+}
+
